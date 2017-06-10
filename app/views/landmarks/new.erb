@@ -1,12 +1,10 @@
-<form action="/figures" method="post">
-  <label for="figure_name">Figure: </label>
-  <input id="figure_name" type="text" name="figure[name]">
+<h1>Create New Landmark: </h1>
+<form action="/landmarks" method="post">
+  <label for="landmark_name">Landmark: </label></br>
+  <input id="landmark_name" type="text" name="landmark[name]"></br>
   
-  <label for="landmark_name">Landmark: </label>
-  <input id="landmark_name" type="text" name="landmark[name]">
-  
-  <label for="title_name">Title: </label>
-  <input id="title_name" type="text" name="title[name]">
+  <label for="landmark_year_completed">Year Completed: </label></br>
+  <input id="landmark_year_completed" type="text" name="landmark[year_completed]"></br>
 
-  <input type="submit" value="submit">
+  <input type="submit" value="Create New Landmark">
 </form>
